@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#header{
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    display: flex;  /*flex aapvathi badani width content jetli j thai jay [mari bhasa ma]*/
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: space-around;  /*header ma jetla div [all] hase a badha sarkhi rite aakhi jagya ma cothvai jase border pr pn space rakhse*/
+}
+
+#fack-header{
+    height: 12%;
+    width: 100%;
+    background-color: white;  /*jyare aapde header ne fixed position property daiye tyare niche no content badho upr aavi jay atle pachhi problem na thay ena mate aapde fack header banayvi je main header ni niche santai jase and badha problem thi chhutkaro aapse*/
+}
+
+#logo{
+    height: 70%;
+    margin: 25px;
+}
+
+
+#div1{
+    height: 100;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+}
+
+.text:hover{
+    color: rgb(255, 255, 255);
+}
+
+#div2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contactDetails{
+    font-weight: lighter;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: white;
+}
+
+#login{
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+}
+
+#login:hover{
+    background-color: white;
+}
+
+#try{
+    background-color: green;
+    padding: 10px 20px;  /*padding 10px from top and bottom and 20px left right*/
+    color: white;
+    border-radius: 20px;
+}
+
+#try:hover{
+    background-color: darkgreen;
+}
+
+#page1{
+    height: 96%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: white;
+    color: black;
+}
+
+
+.paper-name
+{
+    margin-top: 3%;
+    text-decoration: underline;
+}
+
+.paper-syllabus
+{
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+ul{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.paper-instruction{
+    margin-top: 3%;
+}
+
+.inst{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+
+#box2{
+    height: 90%;
+    width: 47%;
+    justify-content: center;
+    display: flex;
+}
+
+.quote img{
+    margin-top: 8%;
+    height: 400px;
+}
+
+
+.button{
+    display: flex;
+    margin-top: 5%;
+    color: white;
+}
+
+.start-button{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 15px;
+}
+.start-button:hover{
+    background-color: rgb(87, 0, 169);
+}
+
+#heading{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+}
+
+#page2{
+    height: 88%;
+    width: 100%;
+    background-color: rgb(18, 44, 44);
+}
